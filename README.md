@@ -11,7 +11,8 @@ A restaurant web application built using **Django** and **Tailwind CSS** for **K
 - Menu showcase section
 - About section
 - Contact section
-- Easy to customize
+- Easy to customize and give  the feedback
+  
 
 ## 🛠️ Tech Stack
 
