@@ -23,20 +23,51 @@ A restaurant web application built using **Django** and **Tailwind CSS** for **K
 
 ## 📂 Project Structure
 
-```bash
 khana-khazana-django/
 │── manage.py
-│── db.sqlite3
 │── requirements.txt
 │── README.md
-│── project_name/
+│── .gitignore
+│
+│── khanakhazana/                # project folder
+│   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
 │   ├── wsgi.py
 │   └── asgi.py
-│── app_name/
+│
+│── core/                        # main app
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
 │   ├── models.py
 │   ├── views.py
 │   ├── urls.py
+│   ├── migrations/
+│   │   └── __init__.py
+│   │
 │   ├── templates/
-│   └── static/
+│   │   └── core/
+│   │       ├── base.html
+│   │       ├── home.html
+│   │       ├── menu.html
+│   │       ├── contact.html
+│   │       ├── reservation.html
+│   │       ├── tracking.html
+│   │       └── components/
+│   │           ├── navbar.html
+│   │           └── footer.html
+│   │
+│   ├── static/
+│   │   └── core/
+│   │       ├── images/
+│   │       │   ├── paneer.png
+│   │       │   ├── pasta.png
+│   │       │   ├── popularchicken.jpg
+│   │       │   ├── popularpaneer.jpg
+│   │       │   └── popularsalmon.jpg
+│   │       │
+│   │       └── css/
+│   │           ├── input.css
+│   │           └── main.css
+
