@@ -29,7 +29,7 @@ khana-khazana-django/
 │── README.md
 │── .gitignore
 │
-│── khanakhazana/                # project folder
+│── khanakhazana/                # project main  folder
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
