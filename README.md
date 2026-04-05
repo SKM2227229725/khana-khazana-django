@@ -18,7 +18,7 @@ A restaurant web application built using **Django** and **Tailwind CSS** for **K
 
 - **Backend:** Django
 - **Frontend:** HTML, Tailwind CSS
-- **Language:** Python
+- **Language:** Python basic
 - **Database:** SQLite (default Django database)
 
 ## 📂 Project Structure
