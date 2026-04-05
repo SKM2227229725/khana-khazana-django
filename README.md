@@ -1,4 +1,4 @@
-# Khana Khazana Django
+#    Khana Khazana Django
 
 A restaurant web application built using **Django** and **Tailwind CSS** for **Khana Khazana**.
 
@@ -29,7 +29,7 @@ khana-khazana-django/
 │── README.md
 │── .gitignore
 │
-│── khanakhazana/                # project main  folder
+│── khanakhazana/                # project main  folder inside 
 │   ├── __init__.py
 │   ├── settings.py
 │   ├── urls.py
